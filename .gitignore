@@ -38,10 +38,8 @@
 *.out
 *.app
 
-# CMake build directory
-cmake-build-debug/
-
-# CMake files
+# CMake build directories and files
+cmake-build-*/
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
@@ -49,30 +47,56 @@ Makefile
 build.ninja
 rules.ninja
 *.ninja
+CMakeConfigureLog.yaml
+clion-*.txt
 
-# Testing logs
+# Testing directories and logs
 Testing/
+Temporary/
 *.log
 
-# Binary executables
-**/Newton-Gravity
+# Binary executables (project-specific)
+Newton-Gravity
+**/bin/Newton-Gravity
 
-# Texture temp folders
+# Temporary texture folders
 **/textures/temp/
-**/textures/untitled folder/
+**/textures/untitled*/
 
-# IDE/editor-specific
+# IDE and editor files
 .vscode/
 .idea/
 *.swp
 *.swo
 *.bak
 *.tmp
-clion-*.txt
 
-# Xcode user data
-Newton-Gravity.xcodeproj/xcuserdata/
-Newton-Gravity.xcodeproj/project.xcworkspace/xcuserdata/
+# Xcode user-specific files
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+xcschememanagement.plist
 
-# macOS
+# macOS system files
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
