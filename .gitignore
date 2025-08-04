@@ -56,8 +56,10 @@ Temporary/
 *.log
 
 # Binary executables (project-specific)
-Newton-Gravity
+# Exclude the executable but keep the source folder
 **/bin/Newton-Gravity
+cmake-build-debug/Newton-Gravity/Newton-Gravity
+cmake-build-debug/bin/Newton-Gravity
 
 # Temporary texture folders
 **/textures/temp/
