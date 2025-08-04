@@ -16,6 +16,7 @@
 
 # Debugger Files
 *.pdb
+*.dwo
 
 # Compiled Dynamic libraries
 *.so
@@ -37,5 +38,41 @@
 *.out
 *.app
 
-# debug information files
-*.dwo
+# CMake build directory
+cmake-build-debug/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+build.ninja
+rules.ninja
+*.ninja
+
+# Testing logs
+Testing/
+*.log
+
+# Binary executables
+**/Newton-Gravity
+
+# Texture temp folders
+**/textures/temp/
+**/textures/untitled folder/
+
+# IDE/editor-specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+clion-*.txt
+
+# Xcode user data
+Newton-Gravity.xcodeproj/xcuserdata/
+Newton-Gravity.xcodeproj/project.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
