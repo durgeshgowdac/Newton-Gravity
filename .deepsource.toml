@@ -1,0 +1,31 @@
+version = 1
+
+# Glob patterns for files or directories to exclude from analysis.
+exclude_patterns = [
+    "build/**",           # CMake build directory
+    "*.xcodeproj/**",     # Xcode project files
+    "textures/**",        # Asset files
+    "**/*.bmp"            # Binary image files
+]
+
+# Glob patterns to identify test files (reduce false positives).
+test_patterns = [
+    "*_test.cpp",
+    "test_*.cpp"
+]
+
+# Configure the C/C++ analyzer.
+[[analyzers]]
+name = "cxx"
+enabled = true
+
+    [analyzers.meta]
+    # Enable MISRA compliance checks.
+    misra_compliance = true
+    # Set complexity threshold for functions.
+    cyclomatic_complexity_threshold = "high"
+
+# Enable secret detection.
+[[analyzers]]
+name = "secrets"
+enabled = true
