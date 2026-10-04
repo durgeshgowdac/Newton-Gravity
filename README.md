@@ -6,6 +6,12 @@ A 3D physics simulation inspired by Newton's legendary apple discovery, demonstr
 
 Newton-Gravity is a C++ application that recreates the famous moment of Newton's gravity discovery - watching an apple fall from a tree. This interactive 3D simulation features falling apples, trees, and environmental elements that demonstrate gravitational forces and physics principles in real-time, bringing the historic moment of scientific discovery to life.
 
+## Demo
+
+<video src="https://github.com/user-attachments/assets/ba236d73-de37-4e42-8ca0-75dbfe9bca42" controls width="720">
+  Your browser does not support inline video.
+</video>
+
 ## Features
 
 - **Real-time 3D Physics Simulation**: Interactive gravity simulation with realistic physics
