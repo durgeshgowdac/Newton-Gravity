@@ -8,7 +8,7 @@ Newton-Gravity is a C++ application that recreates the famous moment of Newton's
 
 ## Demo
 
-<video src="https://github.com/user-attachments/assets/ba236d73-de37-4e42-8ca0-75dbfe9bca42" controls width="720">
+<video src="https://github.com/user-attachments/assets/35d8283e-2c61-446a-86aa-d95064d3e219" controls width="720">
   Your browser does not support inline video.
 </video>
 
